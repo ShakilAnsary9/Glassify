@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="139" height="139" viewBox="0 0 139 139" version="1.1"><script xmlns="" type="text/javascript" src="chrome-extension://hjjjemjbaklnpckcoogimnccnknidapc/webpack_common.js"/><script xmlns="" type="text/javascript" src="chrome-extension://hjjjemjbaklnpckcoogimnccnknidapc/webpack_content.js"/>
+    <title>Oval</title>
+    <defs>
+        <radialGradient cx="32.8715153%" cy="5.40411421%" fx="32.8715153%" fy="5.40411421%" r="98.2352199%" id="radialGradient-1">
+            <stop stop-color="#c39cff" offset="0%"/>
+            <stop stop-color="#9a58fc" offset="100%"/>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="glassmo2" transform="translate(-572.000000, -58.000000)" fill="url(#radialGradient-1)">
+            <g id="Group" transform="translate(0.000000, -60.000000)">
+                <circle id="Oval" cx="641.5" cy="187.5" r="69.5"/>
+            </g>
+        </g>
+    </g>
+</svg>

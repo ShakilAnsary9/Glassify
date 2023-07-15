@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --background: #0c134f;
+  --primary: #6124bb;
+}
+body {
+  font-family: "DM Sans", sans-serif !important;
+}
+.logo {
+  width: 180px;
+}
+.main-bg {
+  height: 100vh;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(5%, #6124bb),
+    color-stop(20%, #5095e4),
+    color-stop(60%, #5095e4),
+    color-stop(95%, #2f6ed3)
+  );
+  background-image: -moz-linear-gradient(
+    top,
+    #6124bb 5%,
+    #5095e4 20%,
+    #5095e4 60%,
+    #2f6ed3 95%
+  );
+  background-image: linear-gradient(
+    180deg,
+    #6124bb 5%,
+    #7b39dd 20%,
+    #8945f0 60%,
+    #6b28cf 95%
+  );
+}
+.main-body {
+  position: relative;
+}
+.glass-nav {
+  position: absolute;
+  background-color: #ffffff;
+  top: 0;
+  z-index: 99;
+}
+.profile {
+  width: 42px;
+  height: 100%;
+}
+.profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 2px solid var(--primary);
+}
+.glass-menu {
+  margin-right: 1rem;
+}
+.glass-menu a {
+  margin-right: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--primary);
+  cursor: pointer;
+}
+.glass-part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15rem;
+}
+.main-glass {
+  width: 385px;
+  height: 260px;
+  background: rgba(255, 255, 255, 0.05);
+  display: -moz-box;
+  display: flex;
+  -moz-box-align: center;
+  align-items: center;
+  -moz-box-pack: center;
+  justify-content: center;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  flex-direction: column;
+  border-radius: 20px;
+  -webkit-transform: rotate(-15deg);
+  -moz-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+  position: relative;
+  left: -10px;
+  z-index: 5;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+.glass-logo {
+  height: 100px;
+  width: 100px;
+}
+.glass-logo img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.glass-part {
+  position: relative;
+}
+.glass {
+  position: absolute;
+  transform: rotate(-15deg);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.05);
+}
+.glass-01 {
+  padding: 15px;
+  font-size: 30px;
+  left: 390px;
+  top: 365px;
+  z-index: 4;
+}
+.glass-02 {
+  padding: 24px;
+  font-size: 30px;
+  left: 210px;
+  top: 320px;
+}
+.glass-03 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  left: 800px;
+  top: 310px;
+  border-radius: 20px;
+  z-index: 7;
+}
+.glass-03 span {
+  font-size: 10px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.glass-04 {
+  padding: 15px;
+  font-size: 30px;
+  left: 945px;
+  top: 410px;
+}
+.oval {
+  position: absolute;
+}
+.oval-01 {
+  height: 104px;
+  width: 104px;
+  top: 220px;
+  left: 450px;
+  z-index: 6;
+}
+.oval-02 {
+  height: 139px;
+  width: 139px;
+  z-index: 4;
+  right: 420px;
+  top: 135px;
+}
+.oval-03 {
+  height: 150px;
+  width: 150px;
+  z-index: 4;
+  right: 430px;
+  top: 425px;
+}
+.oval-04 {
+  height: 104px;
+  width: 104px;
+  z-index: 7;
+  right: 760px;
+  top: 485px;
+}
